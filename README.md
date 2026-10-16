@@ -6,6 +6,10 @@ Live at **https://sercanerhan.github.io/portfolio/**.
 Built with Claude Code (planning + code) and the Codex CLI (image generation), as a small product in its own right:
 an impact dashboard, deep-linkable case studies, seven playable product demos, a career changelog and a ⌘K command palette.
 
+## Working on it with Claude Code
+
+[`CLAUDE.md`](CLAUDE.md) is the project guide (commands, architecture, content rules), and `.claude/skills/` has repeatable workflows: `ship`, `generate-image`, `add-case-study`, `add-showcase-demo`, `content-audit`.
+
 ## Stack
 
 React 19 · TypeScript · Vite · Tailwind CSS 4 · Motion · cmdk · Lenis — static output, deployed to GitHub Pages by GitHub Actions.
@@ -26,6 +30,7 @@ All copy lives in [`src/data/profile.ts`](src/data/profile.ts) — roles, case s
 Covers were generated with the Codex CLI (ChatGPT subscription, built-in image tool) into `assets-src/generated/` (git-ignored), then optimised:
 
 ```bash
+scripts/generate-images.sh                      # all covers, or: scripts/generate-images.sh <name> "<subject>"
 npm run images   # PNG → WebP in public/images + public/og-image.jpg
 ```
 
