@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from 'react'
 
-// Hash-based deep links (#/work/<slug>) — work on GitHub Pages without server rewrites.
+// Hash-based deep links (#/work/<slug>) work on GitHub Pages without server rewrites.
 export function useHashRoute() {
   const read = () => window.location.hash.replace(/^#\/?/, '')
   const [route, setRoute] = useState(read)

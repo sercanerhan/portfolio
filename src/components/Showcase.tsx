@@ -42,7 +42,7 @@ export function Showcase({ active, setActive }: { active: string; setActive: (id
     <section id="showcase" className="relative py-24 sm:py-32">
       <div aria-hidden className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-line-strong to-transparent" />
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
-        <SectionHeader eyebrow="Things I’ve shipped — playable" title={<>Don’t read about it. <span className="text-gradient">Try it.</span></>} intro="Seven products from my career, each rebuilt as a small interactive demo of its core idea. Recreations, not production code — but the problems are real." />
+        <SectionHeader eyebrow="Playable things I’ve shipped" title={<>Don’t read about it. <span className="text-gradient">Try it.</span></>} intro="Seven products from my career, each rebuilt as a small interactive demo of its core idea. Recreations, not production code, but the problems are real." />
         <Reveal>
           <div role="tablist" aria-label="Products" className="-mx-4 flex gap-2 overflow-x-auto px-4 pb-2 [scrollbar-width:none] sm:mx-0 sm:flex-wrap sm:px-0">
             {showcase.map((s) => (

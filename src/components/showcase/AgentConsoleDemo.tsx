@@ -22,8 +22,8 @@ const scenarios: { label: string; prompt: string; steps: Step[] }[] = [
     steps: [
       { tool: 'read_strategy', text: 'Reading the lab strategy doc and last quarter’s results…' },
       { tool: 'north_star', text: 'North star: weekly active teams completing ≥3 tasks.' },
-      { text: 'O1 — Make the first week magical. KR: activation 30% → 45%.' },
-      { text: 'O2 — Earn the habit. KR: week-4 retention 22% → 30%.' },
+      { text: 'O1: Make the first week magical. KR: activation 30% → 45%.' },
+      { text: 'O2: Earn the habit. KR: week-4 retention 22% → 30%.' },
       { text: '→ Draft ready for review with the founding team.' },
     ],
   },

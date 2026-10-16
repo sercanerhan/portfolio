@@ -3,10 +3,10 @@ import map from '../../data/worldmap.json'
 import { MapDots } from '../WorldMap'
 
 const regions = [
-  { id: 'apac', name: 'APAC', color: '#22d3ee', text: 'Asia-Pacific markets — the largest share of the footprint.' },
-  { id: 'mena', name: 'MENA', color: '#fbbf24', text: 'Middle East & North Africa — one of the two regions for the new-country launches.' },
+  { id: 'apac', name: 'APAC', color: '#22d3ee', text: 'Asia-Pacific markets, the largest share of the footprint.' },
+  { id: 'mena', name: 'MENA', color: '#fbbf24', text: 'Middle East & North Africa, one of the two regions for the new-country launches.' },
   { id: 'eu', name: 'EU', color: '#818cf8', text: 'European markets, close to the Berlin headquarters.' },
-  { id: 'latam', name: 'LATAM', color: '#34d399', text: 'Latin America — the product reached all four of Delivery Hero’s regions.' },
+  { id: 'latam', name: 'LATAM', color: '#34d399', text: 'Latin America, where the product reached all four of Delivery Hero’s regions.' },
 ] as const
 type R = (typeof regions)[number]['id']
 

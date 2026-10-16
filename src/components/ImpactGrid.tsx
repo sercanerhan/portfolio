@@ -8,7 +8,7 @@ export function ImpactGrid() {
   const [hero, ...rest] = impact
   return (
     <section id="impact" className="mx-auto max-w-6xl px-4 py-24 sm:px-6 sm:py-32">
-      <SectionHeader eyebrow="Impact dashboard" title={<>Outcomes, not output.</>} intro="A few numbers from eighteen years of building. Every one is from a product I led — and every one came from a team." />
+      <SectionHeader eyebrow="Impact dashboard" title={<>Outcomes, not output.</>} intro="A few numbers from eighteen years of building. Every one is from a product I led, and every one came from a team." />
       <div className="grid grid-cols-2 gap-3 sm:gap-4 md:grid-cols-4">
         <Reveal className="col-span-2 row-span-2">
           <SpotlightCard className="h-full p-6 sm:p-8">

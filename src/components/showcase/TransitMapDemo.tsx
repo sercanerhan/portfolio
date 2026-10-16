@@ -45,7 +45,7 @@ export function TransitMapDemo() {
             </button>
           ))}
         </div>
-        <p className="mt-4 text-sm text-muted">Publishing schedules as GTFS — a city-wide first — let any journey planner route Istanbul’s transit.</p>
+        <p className="mt-4 text-sm text-muted">Publishing schedules as GTFS, a city-wide first, let any journey planner route Istanbul’s transit.</p>
         </div>
         <pre className="overflow-x-auto rounded-xl border border-line bg-black/40 p-4 font-mono text-[11px] leading-relaxed text-muted">
 {`# stops.txt  (GTFS)

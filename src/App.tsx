@@ -1,7 +1,6 @@
 import Lenis from 'lenis'
 import { MotionConfig } from 'motion/react'
 import { useCallback, useEffect, useState } from 'react'
-import { BuiltWith } from './components/BuiltWith'
 import { CaseSheet } from './components/CaseSheet'
 import { CaseStudies } from './components/CaseStudies'
 import { Changelog } from './components/Changelog'
@@ -41,7 +40,7 @@ export default function App() {
 
   useEffect(() => {
     console.log(
-      '%c sercan.erhan %c Built with Claude Code + Codex. Curious how? Scroll to “This site” or press ⌘K.',
+      '%c sercan.erhan %c Built with Claude Code + Codex. Press ⌘K to get around.',
       'background:linear-gradient(90deg,#818cf8,#22d3ee);color:#09090b;font-weight:700;padding:4px 8px;border-radius:4px',
       'color:#a1a1aa',
     )
@@ -65,7 +64,6 @@ export default function App() {
         <Principles />
         <Toolkit />
         <Education />
-        <BuiltWith />
         <Contact copied={copied} onCopy={copyEmail} />
       </main>
       <CaseSheet slug={caseSlug} onClose={() => navigate('')} />

@@ -5,7 +5,7 @@ import { SpotlightCard } from './SpotlightCard'
 export function Principles() {
   return (
     <section id="principles" className="mx-auto max-w-6xl px-4 py-24 sm:px-6 sm:py-32">
-      <SectionHeader eyebrow="Operating principles" title="How I work." intro="Five habits I keep coming back to — each one learned the hard way, and each backed by something that shipped." />
+      <SectionHeader eyebrow="Operating principles" title="How I work." intro="Five habits I keep coming back to. Each one was learned the hard way and is backed by something that shipped." />
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {principles.map((p, i) => (
           <Reveal key={p.title} delay={i * 0.05} className={i === 0 ? 'lg:row-span-2' : ''}>

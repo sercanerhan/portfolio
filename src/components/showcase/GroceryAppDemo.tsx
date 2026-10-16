@@ -44,7 +44,7 @@ export function GroceryAppDemo() {
                 )}
                 {step === 1 && (
                   <div className="space-y-2">
-                    {items.length === 0 && <p className="text-white/50">Basket is empty — go back and add something.</p>}
+                    {items.length === 0 && <p className="text-white/50">Basket is empty. Go back and add something.</p>}
                     {items.map((p) => (
                       <div key={p.name} className="flex items-center justify-between rounded-xl border border-white/10 p-2.5">
                         <span>{p.name}</span>

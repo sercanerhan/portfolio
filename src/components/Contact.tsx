@@ -15,7 +15,7 @@ export function Contact({ copied, onCopy }: { copied: boolean; onCopy: () => voi
           <h2 className="mt-4 max-w-3xl font-display text-4xl font-semibold tracking-tight text-balance sm:text-6xl">
             Let’s build something <span className="text-gradient">worth using.</span>
           </h2>
-          <p className="mt-5 max-w-xl text-lg text-muted">Product strategy, AI products, zero-to-one or scale-up — happy to talk.</p>
+          <p className="mt-5 max-w-xl text-lg text-muted">Product strategy, AI products, zero-to-one or scale-up. Happy to talk.</p>
           <div className="relative mt-10 flex flex-wrap gap-3">
             <motion.a whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.97 }} href={`mailto:${person.email}`} className="inline-flex items-center gap-2 rounded-xl bg-fg px-5 py-3 text-sm font-medium text-bg">
               <Mail size={15} /> {person.email}

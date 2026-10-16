@@ -14,7 +14,7 @@ export const person = {
   status: 'Building AI products · Istanbul',
   headline: ['I build products', 'that find product–market fit.'],
   subline:
-    'CPO at Basefy Innovation Lab. 18 years turning complex systems — maps, cities, logistics networks, healthcare and AI — into products people actually use.',
+    'CPO at Basefy Innovation Lab. 18 years turning complex systems (maps, cities, logistics networks, healthcare and AI) into products people actually use.',
 }
 
 export type Metric = { value: number; prefix?: string; suffix?: string; label: string; context: string }
@@ -44,7 +44,7 @@ export type Role = {
 export const roles: Role[] = [
   {
     version: 'v2025',
-    period: '07.2025 — Present',
+    period: '07.2025 – Present',
     title: 'Chief Product Officer (CPO)',
     company: 'Basefy Innovation Lab',
     era: 'AI portfolio',
@@ -61,7 +61,7 @@ export const roles: Role[] = [
   },
   {
     version: 'v2023',
-    period: '04.2023 — 04.2025',
+    period: '04.2023 – 04.2025',
     title: 'Head of Product',
     company: 'Medibulut',
     era: 'Healthtech growth',
@@ -80,7 +80,7 @@ export const roles: Role[] = [
   },
   {
     version: 'v2022',
-    period: '02.2022 — 04.2023',
+    period: '02.2022 – 04.2023',
     title: 'Senior Product Manager',
     company: 'Delivery Hero',
     era: 'Global logistics',
@@ -90,17 +90,17 @@ export const roles: Role[] = [
       'Built and scaled a logistics-as-a-service product across 24 countries in 4 regions.',
       'Launched in 4 new countries across 2 regions, driving 65% QoQ growth.',
       'Orchestrated a product with dependencies on 16 internal services.',
-      'Led the analytics setup — integrating tracking tools that sharpened insight and decisions.',
+      'Led the analytics setup, integrating tracking tools that sharpened insight and decisions.',
       'Owned roadmap planning and multi-region stakeholder alignment.',
     ],
     tags: ['Logistics', 'Platform', 'Multi-region', 'Analytics'],
   },
   {
     version: 'v2020',
-    period: '03.2020 — 02.2022',
+    period: '03.2020 – 02.2022',
     title: 'Head of Product',
     company: 'Marketyo',
-    note: 'Acquired by Delivery Hero in July 2021 — 100% exit',
+    note: 'Acquired by Delivery Hero in July 2021 (100% exit)',
     era: 'Commerce & exit',
     summary:
       'Built the product organisation from scratch and took the full B2C, B2B and B2B2C portfolio to an exit in 16 months.',
@@ -116,7 +116,7 @@ export const roles: Role[] = [
   },
   {
     version: 'v2018',
-    period: '04.2018 — 03.2020',
+    period: '04.2018 – 03.2020',
     title: 'Product Manager',
     company: 'Arute Solutions',
     note: 'Formerly PlusoneMinusOne',
@@ -134,15 +134,15 @@ export const roles: Role[] = [
   },
   {
     version: 'v2013',
-    period: '04.2013 — 04.2018',
-    title: 'Coordinator — Head of IT Department',
+    period: '04.2013 – 04.2018',
+    title: 'Coordinator, Head of IT Department',
     company: 'ISBAK Istanbul IT and Smart City Technologies',
     note: 'İstanbul Metropolitan Municipality, Directorate of GIS',
     era: 'Smart city',
     summary:
       'Consolidated data and IT services and built products for 101 municipal departments and Istanbul’s citizens.',
     highlights: [
-      'Delivered $11M in annual savings by centralising licences, data and app development — $8M from data consolidation alone.',
+      'Delivered $11M in annual savings by centralising licences, data and app development. $8M came from data consolidation alone.',
       'Led 30+ engineers building web, mobile and desktop products for 101 departments and citizens.',
       'Launched Istanbul’s very first open-data portal and produced the city’s first GTFS transit data.',
       'Shipped a B2C multimodal transportation app for citizens.',
@@ -153,7 +153,7 @@ export const roles: Role[] = [
   },
   {
     version: 'v2011',
-    period: '07.2011 — 01.2013',
+    period: '07.2011 – 01.2013',
     title: 'Project Manager',
     company: 'İTÜ National Geographical Information Systems Innovation Center',
     era: 'National standards',
@@ -167,7 +167,7 @@ export const roles: Role[] = [
   },
   {
     version: 'v2010',
-    period: '07.2010 — 07.2011',
+    period: '07.2010 – 07.2011',
     title: 'Senior GIS Consultant',
     company: 'ESRI Turkey',
     era: 'Mapping the ground',
@@ -181,7 +181,7 @@ export const roles: Role[] = [
   },
   {
     version: 'v2008',
-    period: '07.2008 — 11.2009',
+    period: '07.2008 – 11.2009',
     title: 'GIS Analyst',
     company: 'İŞLEM CBS',
     era: 'Mapping the ground',
@@ -214,9 +214,9 @@ export const caseStudies: CaseStudy[] = [
   {
     slug: 'marketyo-exit',
     kicker: 'Zero to exit',
-    title: 'Building a product org — and selling it in 16 months',
+    title: 'Building a product org and selling it in 16 months',
     company: 'Marketyo → Delivery Hero',
-    period: '2020 — 2022',
+    period: '2020 – 2022',
     cover: 'images/case-marketyo.webp',
     metrics: [
       { value: '16 mo', label: 'to acquisition' },
@@ -224,7 +224,7 @@ export const caseStudies: CaseStudy[] = [
       { value: '5', label: 'PMs hired' },
     ],
     context:
-      'Marketyo powered online grocery for regional supermarket chains across B2B, B2C and B2B2C — with no product function to speak of.',
+      'Marketyo powered online grocery for regional supermarket chains across B2B, B2C and B2B2C, with no product function to speak of.',
     challenge:
       'Turn a services-heavy tech team into a product company fast enough to win a demanding market, while running payments, logistics and a new marketplace in parallel.',
     actions: [
@@ -234,7 +234,7 @@ export const caseStudies: CaseStudy[] = [
       'Ran business and technical diligence workstreams with Delivery Hero and Yemeksepeti.',
     ],
     outcome:
-      'Delivery Hero acquired 100% of Marketyo in July 2021 — 16 months in. I then led the grocery integration into Yemeksepeti’s Local Shops.',
+      'Delivery Hero acquired 100% of Marketyo in July 2021, 16 months in. I then led the grocery integration into Yemeksepeti’s Local Shops.',
     lesson: 'Org design is product design. The team you build is the roadmap you can actually ship.',
   },
   {
@@ -242,7 +242,7 @@ export const caseStudies: CaseStudy[] = [
     kicker: 'Global scale',
     title: 'Logistics-as-a-service across 24 countries',
     company: 'Delivery Hero',
-    period: '2022 — 2023',
+    period: '2022 – 2023',
     cover: 'images/case-deliveryhero.webp',
     metrics: [
       { value: '24', label: 'countries' },
@@ -252,7 +252,7 @@ export const caseStudies: CaseStudy[] = [
     context:
       'Delivery Hero’s logistics network was a competitive advantage locked inside its own apps. The opportunity: offer it as a service.',
     challenge:
-      'One product, four regions, 24 markets — each with different couriers, regulations and partners — sitting on 16 internal services owned by other teams.',
+      'One product, four regions, 24 markets, each with its own couriers, regulations and partners, all sitting on 16 internal services owned by other teams.',
     actions: [
       'Shaped a platform product that local teams could launch without re-engineering.',
       'Sequenced launches into 4 new countries across 2 regions.',
@@ -265,9 +265,9 @@ export const caseStudies: CaseStudy[] = [
   {
     slug: 'medibulut-growth',
     kicker: 'Growth engine',
-    title: 'Making healthtech habit-forming — and profitable',
+    title: 'Making healthtech habit-forming and profitable',
     company: 'Medibulut',
-    period: '2023 — 2025',
+    period: '2023 – 2025',
     cover: 'images/case-medibulut.webp',
     metrics: [
       { value: '+142%', label: 'engagement' },
@@ -276,7 +276,7 @@ export const caseStudies: CaseStudy[] = [
       { value: '+70%', label: 'CSAT' },
     ],
     context:
-      'Medibulut builds B2B and B2C software across healthcare — from patient-facing telehealth to clinic operations.',
+      'Medibulut builds B2B and B2C software across healthcare, from patient-facing telehealth to clinic operations.',
     challenge:
       'Decisions were made on opinion, engagement was flat, and the B2B side had untapped demand for clinic tooling.',
     actions: [
@@ -287,14 +287,14 @@ export const caseStudies: CaseStudy[] = [
     ],
     outcome:
       'Key engagement +142%, user base +52%, revenue +40% and customer satisfaction +70% over two years.',
-    lesson: 'Instrument first. You cannot grow what you cannot see — and teams align fastest around shared numbers.',
+    lesson: 'Instrument first. You cannot grow what you cannot see, and teams align fastest around shared numbers.',
   },
   {
     slug: 'istanbul-open-data',
     kicker: 'Civic scale',
-    title: 'Opening up Istanbul’s data — for 101 departments and every citizen',
+    title: 'Opening up Istanbul’s data for 101 departments and every citizen',
     company: 'ISBAK · İstanbul Metropolitan Municipality',
-    period: '2013 — 2018',
+    period: '2013 – 2018',
     cover: 'images/case-istanbul.webp',
     metrics: [
       { value: '$11M', label: 'annual savings' },
@@ -304,7 +304,7 @@ export const caseStudies: CaseStudy[] = [
     context:
       'One of the world’s largest cities ran on siloed data, duplicated licences and disconnected apps.',
     challenge:
-      'Consolidate data and IT across 101 departments without stopping a city — and give citizens something useful back.',
+      'Consolidate data and IT across 101 departments without stopping a city, and give citizens something useful back.',
     actions: [
       'Centralised software licences, data and app development processes.',
       'Led 30+ engineers building web, mobile and desktop products for departments and citizens.',
@@ -319,7 +319,7 @@ export const caseStudies: CaseStudy[] = [
 export const forGood = {
   title: 'AYA · afetharita',
   role: 'Product Manager (volunteer)',
-  period: '02.2023 — 04.2023',
+  period: '02.2023 – 04.2023',
   text: 'After the devastating February 2023 earthquakes in Türkiye, a volunteer team built a platform to help authorities and citizens coordinate aid operations. I joined as product manager.',
   cover: 'images/case-aya.webp',
 }
@@ -339,16 +339,16 @@ export const showcase: Showcase[] = [
     id: 'route',
     label: 'Route optimization',
     company: 'Arute Solutions',
-    years: '2018 — 2020',
+    years: '2018 – 2020',
     title: 'Fewer kilometres, same deliveries.',
-    blurb: 'SaaS route optimization for banking and parcel delivery in APAC and EU. Drop stops on the map — the solver re-plans the route live.',
+    blurb: 'SaaS route optimization for banking and parcel delivery in APAC and EU. Drop stops on the map and the solver re-plans the route live.',
     points: ['Nearest-neighbour seed + 2-opt improvement', 'Click to add stops, click a stop to remove it', 'Same idea, at fleet scale, in production'],
   },
   {
     id: 'laas',
     label: 'Logistics-as-a-service',
     company: 'Delivery Hero',
-    years: '2022 — 2023',
+    years: '2022 – 2023',
     title: 'One platform. 24 countries.',
     blurb: 'Delivery Hero’s logistics network, packaged as a product. Hover a region to see its footprint.',
     points: ['APAC · MENA · EU · LATAM', '4 new countries in 2 regions', '65% QoQ growth'],
@@ -357,7 +357,7 @@ export const showcase: Showcase[] = [
     id: 'grocery',
     label: 'Grocery marketplace',
     company: 'Marketyo',
-    years: '2020 — 2022',
+    years: '2020 – 2022',
     title: 'From white-label to marketplace.',
     blurb: 'Marketyo’s consumer grocery app on top of its B2B platform. Tap through the core journey.',
     points: ['Browse → basket → checkout → courier', 'Online payments + route optimization', 'Acquired by Delivery Hero'],
@@ -366,7 +366,7 @@ export const showcase: Showcase[] = [
     id: 'health',
     label: 'Telehealth & clinics',
     company: 'Medibulut',
-    years: '2023 — 2025',
+    years: '2023 – 2025',
     title: 'Patients and clinics, one product system.',
     blurb: 'A B2C telehealth journey and a B2B clinic-management workspace. Flip between the two sides.',
     points: ['+142% engagement', '+52% users · +40% revenue', 'New B2B clinic vertical'],
@@ -375,7 +375,7 @@ export const showcase: Showcase[] = [
     id: 'transit',
     label: 'Istanbul transit data',
     company: 'ISBAK · IMM',
-    years: '2013 — 2018',
+    years: '2013 – 2018',
     title: 'Istanbul’s first GTFS feed.',
     blurb: 'Publishing the city’s transit schedules in an open standard unlocked routing apps for millions. Toggle lines on the map.',
     points: ['First open-data portal', 'First GTFS dataset', 'B2C multimodal transport app'],
@@ -393,7 +393,7 @@ export const showcase: Showcase[] = [
     id: 'agents',
     label: 'AI lab',
     company: 'Basefy Innovation Lab',
-    years: '2025 — now',
+    years: '2025 – now',
     title: 'Agents that do product work.',
     blurb: 'Basefy builds proprietary AI products for B2B and B2C. This console sketches the kind of agentic workflow the lab explores.',
     points: ['LLMs, agents & automations', 'Portfolio of ventures', 'PMF as the north star'],
@@ -403,7 +403,7 @@ export const showcase: Showcase[] = [
 export const principles = [
   {
     title: 'Read the terrain first',
-    text: 'I started as a geodesy engineer. Before drawing a route, you survey the ground — users, data, constraints.',
+    text: 'I started as a geodesy engineer. Before drawing a route, you survey the ground: users, data, constraints.',
     proof: 'Research-led fixes lifted Medibulut CSAT +70%.',
   },
   {
@@ -437,13 +437,13 @@ export const toolkit = [
 
 export const education = [
   {
-    period: '01.2012 — 09.2014',
+    period: '01.2012 – 09.2014',
     school: 'İstanbul Technical University',
-    degree: 'Master’s Degree, Informatics Institute — Geographic Information Technologies',
+    degree: 'Master’s Degree, Informatics Institute, Geographic Information Technologies',
     thesis: 'Determining Approaches for Geo-Data Interoperability on the Web: Transportation Data Theme Example',
   },
   {
-    period: '10.2003 — 06.2009',
+    period: '10.2003 – 06.2009',
     school: 'Yıldız Technical University',
     degree: 'Bachelor of Science, Geodesy and Photogrammetry Engineering',
     thesis: 'Analyzing exhaust emission values of vehicles in GIS',
@@ -451,6 +451,6 @@ export const education = [
 ]
 
 export const community = [
-  { title: 'İTÜ Seed — Mentor', period: '05.2023 — Present', text: 'Mentoring İTÜ Çekirdek startups toward their GTM and PMF goals.' },
-  { title: 'AYA (afetharita) — Product Manager', period: '02.2023 — 04.2023', text: 'Volunteer platform built after the 2023 earthquakes to help authorities and citizens run relief operations.' },
+  { title: 'İTÜ Seed · Mentor', period: '05.2023 – Present', text: 'Mentoring İTÜ Çekirdek startups toward their GTM and PMF goals.' },
+  { title: 'AYA (afetharita) · Product Manager', period: '02.2023 – 04.2023', text: 'Volunteer platform built after the 2023 earthquakes to help authorities and citizens run relief operations.' },
 ]
