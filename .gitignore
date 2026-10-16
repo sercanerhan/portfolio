@@ -1,0 +1,11 @@
+node_modules
+dist
+.DS_Store
+*.local
+# The original CV contains a private phone number — never publish it.
+cv_sercanerhan_*.pdf
+# Raw image generations; optimized WebP copies live in public/images.
+assets-src/
+
+# Local tooling
+.claude/
