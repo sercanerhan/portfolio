@@ -1,6 +1,7 @@
 import { AnimatePresence, motion } from 'motion/react'
 import { ImageIcon } from 'lucide-react'
-import { lazy, Suspense, useEffect, useState, type ComponentType } from 'react'
+import { lazy, Suspense, useState, type ComponentType } from 'react'
+import stats from '../data/buildStats.json'
 import { showcase } from '../data/profile'
 import { asset } from '../lib/asset'
 import { Reveal, SectionHeader } from './Reveal'
@@ -17,16 +18,11 @@ const demos: Record<string, ComponentType> = {
 }
 
 // If a real screenshot is dropped into public/images/real/<id>.webp, offer it next to the recreation.
+// The list of available files is collected at build time by scripts/build-stats.mjs.
 function RealShot({ id }: { id: string }) {
-  const [ok, setOk] = useState(false)
   const [open, setOpen] = useState(false)
+  if (!(stats.realShots as string[]).includes(id)) return null
   const src = asset(`images/real/${id}.webp`)
-  useEffect(() => {
-    const img = new Image()
-    img.onload = () => setOk(true)
-    img.src = src
-  }, [src])
-  if (!ok) return null
   return (
     <>
       <button onClick={() => setOpen(true)} className="mt-5 inline-flex items-center gap-2 rounded-lg border border-line px-3 py-1.5 text-xs text-muted hover:text-fg"><ImageIcon size={13} /> View real screenshot</button>
